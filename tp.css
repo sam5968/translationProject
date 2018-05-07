@@ -35,6 +35,20 @@ li a:hover {
     background-color: rgb(114, 17, 17);
 }
 
+/* Search Bar */
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the Search is Focused */
+
+input[type=text]:focus {
+    width: 100%;
+}
+
 /* Dropdown */
 
 .dropdown {
