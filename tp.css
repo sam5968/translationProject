@@ -37,10 +37,26 @@ li a:hover {
 
 /* Search Bar */
 
+.search {
+    display: inline-block;
+    width: 100%;
+}
+
 input[type=text] {
     width: 130px;
+    box-sizing: border-box;
+    border: 1px solid rgba(211, 20, 20, 0.589);
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+    float: left;
+    margin: 8px;
+    background-image: url('Images/ic_search_black_24px.svg');
 }
 
 /* When the Search is Focused */
