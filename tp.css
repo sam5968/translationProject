@@ -149,3 +149,13 @@ input[type=text]:focus {
     color: rgb(34, 0, 185);
     font-size: 3em;
 }
+
+.bannerImg {
+    margin-top: 20px;
+    background: url(Images/Catamaran.png);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
