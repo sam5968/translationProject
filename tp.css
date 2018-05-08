@@ -151,7 +151,7 @@ input[type=text]:focus {
 }
 
 .bannerImg {
-    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
     background: url(Images/Catamaran.png);
     height: 50%;
     background-position: center;
