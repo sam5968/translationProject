@@ -134,10 +134,13 @@ input[type=text]:focus {
 }
 
 .info {
-    background: rgb(212, 129, 77);
+    background: rgba(198, 56, 233, 0.418);
 }
 
 .img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
@@ -158,4 +161,23 @@ input[type=text]:focus {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+/* Grid for content */
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1ft));
+    grid-gap: 20px;
+    margin: 10px;
+}
+
+.exp {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    color: white;
+    font-weight: 100;
 }
