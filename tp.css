@@ -3,6 +3,10 @@ html, body {
     height: 100%;
 }
 
+#page2 {
+    margin: 30px;
+}
+
 body {
     background-color: #0D0805;
 }
@@ -100,13 +104,14 @@ input[type=text]:focus {
 .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
 
 .column {
-    width: 100%;
-    height: 500px;
+    height: 550px;
     text-align: center;
-    overflow-y: auto;
+    overflow-y: auto; 
+    grid-column: auto;
 }
 
 .info {
@@ -118,6 +123,7 @@ input[type=text]:focus {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .txt {
@@ -181,12 +187,22 @@ tr:nth-child(even) {
 
 /* For Mobile */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
+
+    .row {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 
 }
 
 /* For Tablet */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+    }
 
 }
