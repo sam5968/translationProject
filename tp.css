@@ -185,6 +185,41 @@ tr:nth-child(even) {
     background-color: rgba(32, 109, 22, 0.623);
 }
 
+#footer {
+    padding: 10px 0px 30px 50px;
+    background-color: rgba(22, 22, 22, 0.658);
+}
+
+h5 {
+    color: rgba(218, 12, 132, 0.849);
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+.fab {
+    font-size: 40px;
+    color: white;
+    margin-left: 5px;
+}
+
+.fab:hover {
+    cursor: pointer;
+}
+
+/* Social Icon Colors */
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+.fa-twitter-square:hover {
+    color: #1DA1F2;
+}
+
+.fa-google-plus:hover {
+    color: #DB4437;
+}
+
 /* For Mobile */
 
 @media only screen and (max-width: 480px) {
@@ -192,6 +227,10 @@ tr:nth-child(even) {
     .row {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+    }
+
+    .column {
+        height: auto;
     }
 
 }
@@ -203,6 +242,10 @@ tr:nth-child(even) {
     .row {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
+    }
+
+    .column {
+        height: auto;
     }
 
 }
