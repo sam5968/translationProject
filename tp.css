@@ -43,40 +43,6 @@ a {
     text-decoration: none;
 }
 
-/* Search Bar */
-
-.search {
-    display: inline-block;
-    width: 100%;
-}
-
-input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 1px solid rgba(211, 20, 20, 0.589);
-    border-radius: 3px;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    float: left;
-    margin: 8px;
-    background-image: url('Images/ic_search_black_24px.svg');
-}
-
-/* When the Search is Focused */
-
-input[type=text]:focus {
-    width: 100%;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 /* Hero/Banner Image */
 
 .banner {
@@ -185,6 +151,8 @@ tr:nth-child(even) {
     background-color: rgba(32, 109, 22, 0.623);
 }
 
+/* Footer */
+
 #footer {
     padding: 10px 0px 30px 50px;
     background-color: rgba(22, 22, 22, 0.658);
@@ -222,7 +190,7 @@ h5 {
 
 /* For Mobile */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
 
     .row {
         grid-template-columns: 1fr;
@@ -237,10 +205,10 @@ h5 {
 
 /* For Tablet */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 781px) and (max-width: 1024px) {
 
     .row {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
 
