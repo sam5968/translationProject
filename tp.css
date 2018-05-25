@@ -4,7 +4,7 @@ html, body {
 }
 
 #page2 {
-    margin: 30px;
+    margin: 30px 20px 0px 20px;
 }
 
 body {
@@ -76,7 +76,6 @@ a {
 .column {
     height: 550px;
     text-align: center;
-    overflow-y: auto; 
     grid-column: auto;
 }
 
@@ -143,6 +142,10 @@ th, td {
     text-align: center;
 }
 
+td {
+    color: white;
+}
+
 tr:nth-child(odd) {
     background-color: rgba(96, 212, 49, 0.747);
 }
@@ -165,7 +168,7 @@ h5 {
 }
 
 .fab {
-    font-size: 40px;
+    font-size: 1.85em;
     color: white;
     margin-left: 5px;
 }
