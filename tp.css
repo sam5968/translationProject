@@ -74,7 +74,7 @@ a {
 }
 
 .column {
-    height: 550px;
+    height: 580px;
     text-align: center;
     grid-column: auto;
 }
@@ -83,7 +83,7 @@ a {
     background: rgba(198, 56, 233, 0.418);
 }
 
-.img {
+.img, .image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ a {
 }
 
 .bannerImg {
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 0px 0px;
     background: url(Images/Catamaran.png);
     height: 50%;
     background-position: center;
@@ -177,6 +177,10 @@ h5 {
     cursor: pointer;
 }
 
+.right {
+    float: right;
+}
+
 /* Social Icon Colors */
 
 .fa-facebook:hover {
@@ -189,6 +193,33 @@ h5 {
 
 .fa-google-plus:hover {
     color: #DB4437;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+/* For prototype */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.cont {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 10px;
+    color: white;
+}
+
+.detail {
+    text-align: center;
+    line-height: 1;
 }
 
 /* For Mobile */
