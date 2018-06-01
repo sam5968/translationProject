@@ -130,30 +130,6 @@ a {
     font-weight: 100;
 }
 
-/* For Table Content */
-
-table {
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid rgb(255, 255, 255);
-    padding: 8px;
-    text-align: center;
-}
-
-td {
-    color: white;
-}
-
-tr:nth-child(odd) {
-    background-color: rgba(96, 212, 49, 0.747);
-}
-
-tr:nth-child(even) {
-    background-color: rgba(32, 109, 22, 0.623);
-}
-
 /* Footer */
 
 #footer {
