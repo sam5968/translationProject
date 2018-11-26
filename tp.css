@@ -3,8 +3,8 @@ html, body {
     height: 100%;
 }
 
-#page2 {
-    margin: 30px 20px 0px 20px;
+.in {
+    margin: 30px 200px 0px 200px;
 }
 
 body {
@@ -80,7 +80,7 @@ a {
 }
 
 .info {
-    background: rgba(198, 56, 233, 0.418);
+    background: rgba(56, 118, 233, 0.089);
 }
 
 .img, .image {
